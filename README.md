@@ -1,0 +1,1 @@
+A webpage application where you can create, list and eliminate products using an API. Made with HTML, CSS, JavaScript for frontend and NodeJS for the backend
