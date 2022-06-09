@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminación de Producto</title>
+    <link rel="stylesheet" href="eliminarproductosstyle.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><h1>ABi Paraguay</h1></a>
+        </nav>
+    </header>
+    <main>
+        <h1>Ingrese el ID del producto para eliminar</h1>
+        <div class="main-container">
+           <input type="text" id="id-buscado" required>
+           <button id="boton-buscar">Buscar</button>
+        </div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <td>ID</td>
+                        <td>Nombre</td>
+                        <td>Descripción</td>
+                        <td>Precio</td>
+                        <td>Precio Mayorista</td>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+
+                </tbody>
+            </table>
+            <button id="boton-borrar">Borrar</button>
+        </div>
+    </main>
+    <footer>
+        <p>Programmed by => <a href="https://github.com/EidanBlack" target="__blank">Adrian Candia</a></p>
+    </footer>
+    <script src="eliminar.js"></script>
+</body>
+</html>

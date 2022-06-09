@@ -1,0 +1,130 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    margin-top: -1.2rem;
+    width: auto;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 100%;
+    margin-bottom: 29rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header {
+    background-color: #ffa300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 8rem;
+}
+
+header nav h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+#id-buscado {
+    width: 20rem;
+    height: 2rem;
+    margin-top: 3rem;
+}
+
+button {
+    margin-top: 2rem;
+    background-color: #303ab2;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 0.3rem 0.5rem;
+    width: 20rem;
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+    font-size: 2.2rem;
+    background-color:mediumblue;
+    transition: font-size 1s ease;
+}   
+
+footer {
+    position: absolute;
+    height: 8rem;
+    background-color: hsl(38, 100%, 50%);
+    width: 100%;
+    margin-top: 8rem;
+    bottom: 0;
+}
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.table-container {
+    margin-top: 3rem;
+    /*display: none;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#boton-borrar {
+    margin-top: 4rem;
+}
+
+table {
+    border: 2px solid black;
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+
+table thead td{
+    width: 8rem;
+    font-size: 1.2rem;
+    font-weight: bold; 
+}
+
+table tbody td {
+    font-size: 1.2rem;
+}
+
+

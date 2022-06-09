@@ -1,0 +1,125 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    margin-top: -1.2rem;
+    width: auto;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 100%;
+    margin-bottom: 29rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header {
+    background-color: #ffa300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 8rem;
+}
+
+header nav h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 3rem;
+}
+
+footer {
+    position: absolute;
+    height: 8rem;
+    background-color: hsl(38, 100%, 50%);
+    width: 100%;
+    margin-top: 8rem;
+    bottom: 0;
+}
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.form-input, textarea, select {
+    border: none;
+    border-bottom: 2px solid rgba(0,0,0,0.4);
+    border-right: 2px solid rgba(0,0,0,0.4);
+}
+
+.form-input {
+    width: 50rem;
+    height: 3rem;
+}
+
+textarea, select {
+    width: 50rem;
+}
+
+select {
+    height: 2.8rem;
+}
+
+textarea {
+    height: 10rem;
+}
+
+label {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    text-decoration-color: #ffa300;
+    text-decoration-thickness: 0.25rem;
+}
+
+button {
+    margin-top: 2rem;
+    background-color: #303ab2;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 0.3rem 0.5rem;
+    width: 20rem;
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+    font-size: 2.2rem;
+    background-color:mediumblue;
+    transition: font-size 1s ease;
+}
+

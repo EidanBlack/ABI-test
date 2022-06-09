@@ -1,0 +1,98 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    margin-top: -1.2rem;
+    width: auto;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 100%;
+    margin-bottom: 29rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header {
+    background-color: #ffa300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 8rem;
+    margin-bottom: 2rem;
+}
+
+header nav h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 3rem;
+}
+
+footer {
+    position: absolute;
+    height: 8rem;
+    background-color: hsl(38, 100%, 50%);
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    padding: auto;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+thead {
+    border: 2px solid black;
+    background-color: #ffa300;
+    color: #ffffff;
+}
+
+thead td {
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+}
+
+td {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+tbody td {
+    border-top: 2px solid black;
+    text-align: center;
+}
+
+

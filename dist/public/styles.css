@@ -1,0 +1,142 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    margin-top: -1.2rem;
+    width: auto;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 100%;
+    margin-bottom: 29rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header {
+    background-color: #ffa300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 8rem;
+}
+
+header nav h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 3rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 28rem;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 5rem;
+}
+
+
+
+.img-frame {
+    border-radius: 100%;
+    border: 1rem solid #ffa300   ;
+    width: 21rem;
+    height: 21rem;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+.img-frame img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(0.08rem);
+}
+
+.card-container:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 1.5s ease;
+}
+
+.card-container:hover .img-frame img {
+    filter: none;
+}
+
+.category-name {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.main-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem 2rem;
+    width: 100vw;
+}
+
+@media (max-width: 600px){
+    .main-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 2rem;
+        justify-content: center;
+    }
+    .card-container {
+        width: 20rem;
+    }
+    .img-frame {
+        width: 18rem;
+        height: 18rem;
+    }
+}
+
+@media (max-width: 480px){
+    .main-container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+}
+
+
+footer {
+    position: absolute;
+    height: 8rem;
+    background-color: hsl(38, 100%, 50%);
+    width: 100%;
+    margin-top: 8rem;
+    bottom: 0;
+}
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.8rem;
+}

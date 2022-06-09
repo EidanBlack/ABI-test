@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carga de Producto</title>
+    <link rel="stylesheet" href="nuevoproductostyle.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><h1>ABi Paraguay</h1></a>
+        </nav>
+    </header>
+    <main>
+        <h1>Crear Producto</h1>
+        <div class="form-container">
+           <label for="name" id="nombre">Nombre del Producto</label>
+           <input type="text" class="form-input" id="name" required>
+           <label for="normalPrice" id="precioNormal">Precio Normal (Gs.)</label>
+           <input type="text" class="form-input" id="normalPrice" required>
+           <label for="mayorPrice" id="precioMayorista">Precio Mayorista (Gs.)</label>
+           <input type="text" class="form-input" id="mayorPrice" required>
+           <label for="mayorQty" id="cantidadMayorista">Cantidad Mayorista</label>
+           <input type="number" class="form-input" id="mayorQty" min="0" required>
+           <label for="descripcion" id="descripcionLabel">Descripción</label>
+           <textarea name="descripcionText" rows="3" id="description" required></textarea>
+           <label for="categoria">Categoría</label>
+           <select name="categoria" id="category" required>
+               <option></option>
+                <option>Aceites</option>
+                <option>Alimentos</option>
+                <option>Almacén</option>
+                <option>Bebidas con Alcohol</option>
+                <option>Bebidas sin Alcohol</option>
+                <option>Carnicería</option>
+                <option>Cocina</option>
+                <option>Dieteticos</option>
+                <option>Ferreteria</option>
+                <option>Helados y Tortas</option>
+                <option>Higiene</option>
+                <option>Muebles</option>
+                <option>Perfumeria</option>
+                <option>Snacks</option>
+                <option>Vinos Dulces</option>
+                <option>Vinos Rosados</option>
+           </select>
+           <label for="stock">Stock</label>
+           <input type="number" id="stock" class="form-input" min="0" required>
+           <button>Guardar</button>
+        </div>
+    </main>
+    <footer>
+        <p>Programmed by => <a href="https://github.com/EidanBlack" target="__blank">Adrian Candia</a></p>
+    </footer>
+    <script src="nuevoproducto.js"></script>
+</body>
+</html>
